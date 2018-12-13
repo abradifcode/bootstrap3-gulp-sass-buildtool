@@ -60,7 +60,19 @@ gulp.task('useref', function() {
 gulp.task('autoprefixer', function() {
   return gulp.src('app/css/*.css')
     .pipe(sourcermaps.init())
-    .pipe(postcss([autoprefixer({ grid: true, browsers: ['>1%'] })]))
+    // to match upstream bootstrap level of brower compatability set browsers to
+
+    .pipe(postcss([autoprefixer({ grid: true,
+       browsers:[
+       "Android 2.3",
+       "Android >= 4",
+       "Chrome >= 20",
+       "Firefox >= 24",
+       "Explorer >= 8",
+       "iOS >= 6",
+       "Opera >= 12",
+       "Safari >= 6"
+       ] })]))
     .pipe(sourcermaps.write('.'))
     .pipe(gulp.dest('dist/css'))
 });
