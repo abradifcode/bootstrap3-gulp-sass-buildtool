@@ -1,4 +1,4 @@
-# Gulp Build Tool
+# Bootstrap3 Sass Gulp Build Tool
 
 A collection of packages that build a website using `npm and gulp scripts`.
 
@@ -10,7 +10,8 @@ A collection of packages that build a website using `npm and gulp scripts`.
 * [List of available tasks](#list-of-available-tasks)
 
 
-## Packages used  
+## Packages used
+  * [bootstrap-sass](https://www.npmjs.com/package/bootstrap-sass)
   * [autoprefixer](https://github.com/postcss/autoprefixer)
   * [browser-sync](https://github.com/Browsersync/browser-sync)  
   * [gulp](https://github.com/gulpjs/gulp)
@@ -20,6 +21,7 @@ A collection of packages that build a website using `npm and gulp scripts`.
   * [gulp-sourcemaps](https://github.com/gulp-sourcemaps/gulp-sourcemaps)
   * [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
   * [gulp-useref](https://github.com/jonkemp/gulp-useref)
+
 
 
 ## Running tasks individually
